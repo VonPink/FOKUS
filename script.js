@@ -16,7 +16,7 @@ const audioPlay = new Audio('/sons/play.wav')
 const audioPause = new Audio('/sons/pause.mp3')
 const audioAlert = new Audio('/sons/beep.mp3')
 
-let tempoDecorridoEmSegundos = 5
+let tempoDecorridoEmSegundos = 1500
 let intervaloId = null
 
 musica.loop = true
@@ -122,3 +122,4 @@ function mostrarTempo() {
 
 
 mostrarTempo()
+
